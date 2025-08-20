@@ -1,5 +1,4 @@
 # OriginBot Open Source Kit
-![originbot](images/originbot.jpg)
 
 OriginBot is an open-source robot kit and a community-driven project aimed at enabling every participant to enjoy the fun of robot development.
 
