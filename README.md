@@ -33,6 +33,17 @@ https://github.com/Dao-AILab/flash-attention/releases
 https://zhuanlan.zhihu.com/p/666921274
 
 
+# 在WSL2-Ubuntu中安装CUDA12.8、cuDNN、Anaconda、Pytorch并验证安装
+
+https://zhuanlan.zhihu.com/p/1880786925419472672
+
+https://www.cnblogs.com/kazusarua/p/18760206
+
+https://blog.csdn.net/u014451778/article/details/146075238
+
+
+
+
 
 # 
 
