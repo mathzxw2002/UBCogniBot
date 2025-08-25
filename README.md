@@ -43,11 +43,18 @@ https://blog.csdn.net/u014451778/article/details/146075238
 
 
 
-
-
-# 
-
-# 
+# CUDA OpenGL
 
 https://github.com/facebookresearch/habitat-sim/issues/1511
+
+https://github.com/facebookresearch/habitat-sim/issues/851
+
+https://github.com/facebookresearch/habitat-sim/issues/1963
+
+https://github.com/facebookresearch/habitat-sim/issues/2424
+
+https://github.com/facebookresearch/habitat-sim/issues/2099
+
+
+
 
