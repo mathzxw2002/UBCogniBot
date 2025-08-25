@@ -48,3 +48,6 @@ https://blog.csdn.net/u014451778/article/details/146075238
 # 
 
 # 
+
+https://github.com/facebookresearch/habitat-sim/issues/1511
+
