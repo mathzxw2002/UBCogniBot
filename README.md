@@ -57,4 +57,15 @@ https://github.com/facebookresearch/habitat-sim/issues/2099
 
 
 
+<img width="1731" height="246" alt="image" src="https://github.com/user-attachments/assets/c75baf53-bf95-4fbc-8455-49c5f3bf095d" />
+
+这个问题是gradio和pydantic版本冲突导致的，我当前gradio版本为4.44.1，pydantic版本为2.11.3
+
+解决办法降低pydantic版本就可以了，重新安装pydantic版本2.10.6
+
+pip install --force-reinstall pydantic==2.10.6
+
+
+
+
 
