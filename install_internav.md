@@ -1,21 +1,16 @@
 
 1. install ubuntu 22.04
 
-update softwares by Software Updates
+update softwares by Ubuntu Software Updates
 
-3. install gcc 12
+2. install gcc 12
 
 (MUST do this!!!)
-sudo apt install -y build-essential
-
-sudo apt install gcc-12
+sudo apt install -y build-essential gcc-12 g++-12
 
 sudo ln -s /user/bin/gcc-12 /usr/bin/gcc
 
-sudo apt install -y g++-12
-
 sudo ln -s /user/bin/g++-12 /usr/bin/g++
-
 
 
 3. install nvidia gpu driver 550+ and cuda 12.4
