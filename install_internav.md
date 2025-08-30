@@ -1,7 +1,9 @@
 
 1. install ubuntu 22.04
 
-2. install gcc 12
+update softwares by Software Updates
+
+3. install gcc 12
 
 (MUST do this!!!)
 sudo apt install -y build-essential
