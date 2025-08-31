@@ -125,4 +125,16 @@ sudo apt install -y xorg-dev
 
 
 
+不同品牌和型号的主板进入 BIOS 以及禁用 Intel VT-d 或 AMD-Vi 的操作可能会有所不同，但一般可以按照以下步骤进行：
+进入 BIOS 设置界面：重启计算机，在启动时按下特定的键以进入 BIOS（或 UEFI）设置界面。常见的按键有 F2、Del、Esc 或 F10 等，具体按键可以查阅主板手册或在开机时留意屏幕上的提示。
+查找虚拟化相关选项：在 BIOS 界面中，找到与虚拟化相关的选项。通常可以在 “Advanced”（高级）、“CPU Configuration”（CPU 配置）、“Chipset”（芯片组）等菜单下找到。
+禁用虚拟化支持：找到 “Intel Virtual Technology”（英特尔虚拟化技术）、“VT-x”、“AMD-V” 或 “SVM Mode”（安全虚拟机模式）等选项，将其设置为 “Disabled”（禁用）。
+保存并重启计算机：按下 F10 键保存更改并退出 BIOS 界面，计算机会重启以应用新的设置。
+以下是一些常见主板品牌的具体操作示例：
+华硕主板：进入 BIOS 页面后，找到 “Advanced”--“CPU Configuration”--“Intel Virtual Technology” 选项，将其设置为 “Disabled”。
+微星主板：进入 BIOS 页面后，找到 “OC” 或 “Overcloking”--“CPU 特征”--“SVM Mode” 或 “Intel 虚拟化技术” 选项，将其设置为 “Disabled”。
+技嘉主板：进入 BIOS 页面后，找到 “BIOS Features”--“Intel Virtual Technology” 和 “VT-d” 选项，将它们都设置为 “Disabled”。
+AMD 平台：如果使用 AMD 的 CPU，进入 BIOS 页面后，找到 “M.I.T”--“Advanced Frequency Settings”--“Advanced CPU Core Settings”--“SVM” 选项，将其设置为 “Disabled”。
+
+
 
