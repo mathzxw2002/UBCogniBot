@@ -105,6 +105,24 @@ sudo apt update -y
 
 sudo apt install -y xorg-dev
 
+切换为hdmi接口，不能用VGA
+
+
+
+<img width="1980" height="288" alt="90ecb934bfe5a91b24f133fc441ef8a7" src="https://github.com/user-attachments/assets/1f58248b-2a98-4cbd-b75c-aa2fa2d911f4" />
+
+
+
+这个提示是关于 IOMMU（输入输出内存管理单元） 的警告：
+核心意思
+如果你的系统是物理机（直接安装的 Linux，不是虚拟机）：Linux 下的 CUDA 和显卡驱动，不支持 “开启 IOMMU 的 PCIe 点对点内存复制”，继续开着可能导致图像出错、程序崩溃。
+如果是带 GPU 直通的虚拟机（比如用 vGPU 把显卡给虚拟机用）：反而需要开启 IOMMU。
+怎么处理
+先点提示框右下角的「OK」关掉它。
+确认自己的系统类型：
+物理机：重启电脑，进 BIOS 设置（按主板提示的键，比如Del/F2），找到 Intel VT-d（Intel 平台）或 AMD-Vi（AMD 平台）的选项，把它禁用，保存后重启系统。
+虚拟机（且用了 GPU 直通）：保持 IOMMU 开启即可，这个警告可以忽略。
+
 
 
 
