@@ -88,22 +88,22 @@ glxinfo | grep "OpenGL renderer"
 
 
 # 生成NVIDIA Xorg配置文件
-sudo nvidia-xconfig
+sudo nvidia-xconfig \
 
 sudo nvidia-xconfig
 
 WARNING: Unable to locate/open X configuration file.
 
-Package xorg-server was not found in the pkg-config search path.
-Perhaps you should add the directory containing `xorg-server.pc'
-to the PKG_CONFIG_PATH environment variable
-No package 'xorg-server' found
-New X configuration file written to '/etc/X11/xorg.conf'
+Package xorg-server was not found in the pkg-config search path. \
+Perhaps you should add the directory containing `xorg-server.pc' \
+to the PKG_CONFIG_PATH environment variable \
+No package 'xorg-server' found \
+New X configuration file written to '/etc/X11/xorg.conf' \
 
-sudo add-apt-repository universe
+sudo add-apt-repository universe \
 sudo apt update -y
 
-sudo apt install -y xorg-dev
+sudo apt install -y xorg-dev \
 
 切换为hdmi接口，不能用VGA
 
