@@ -19,12 +19,13 @@ sudo ln -s /user/bin/g++-12 /usr/bin/g++
 sudo vim /etc/modprobe.d/blacklist-nouveau.conf
 
 add (at the end of /etc/modprobe.d/blacklist-nouveau.conf):
-blacklist nouveau
+blacklist nouveau \
+
 options nouveau modeset=0
 
 3.2 update config and reboot
 
-sudo update-initramfs -u
+sudo update-initramfs -u \
 sudo reboot
 
 
