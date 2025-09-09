@@ -66,6 +66,12 @@ https://github.com/facebookresearch/habitat-sim/issues/2099
 pip install --force-reinstall pydantic==2.10.6
 
 
+https://blog.csdn.net/m0_46242509/article/details/143743803
+
+
+
+
+
 
 
 
