@@ -12,6 +12,7 @@ https://dynamem.github.io/
 
 https://github.com/hello-robot/stretch_ai
 
+![Strecch.AI](393050355-a1db635c-03b5-48e8-9167-45f09bc8a9b2.gif)
 
 
 # Issues
