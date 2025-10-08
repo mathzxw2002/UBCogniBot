@@ -2,6 +2,17 @@
 aims to build a robot, which not only grasps objects, but also has memories. 
 
 
+# Robots
+
+https://hello-robot.com/
+
+https://dynamem.github.io/
+
+<img width="2021" height="990" alt="image" src="https://github.com/user-attachments/assets/773e5264-e08a-4ea1-853f-91f90a09a95c" />
+
+https://github.com/hello-robot/stretch_ai
+
+
 
 # Issues
 
